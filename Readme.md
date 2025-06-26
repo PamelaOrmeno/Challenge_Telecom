@@ -27,10 +27,42 @@ El objetivo de este proyecto es **analizar el comportamiento de los clientes** d
 Challenge_Telecom/
 ├── TelecomX_LATAM.ipynb        # Notebook con el desarrollo completo
 ├── Data/
-│   |__ TelecomX_Data.json      # Dataset en formato JSON
+│   ├── TelecomX_Data.json      # Dataset en formato JSON
 ├── README.md                   # Archivo de documentación
 ```
+
+## 💻 Instrucciones generales de uso
+
+- Clona este repositorio o descárgalo como ZIP desde GitHub.
+- Abre el archivo TelecomX_LATAM.ipynb en un entorno Jupyter Notebook o en Google Colab.
+- Asegúrate de tener instaladas las dependencias necesarias: pandas, numpy, matplotlib, seaborn.
+- Ejecuta las celdas en orden. El notebook cargará los datos, realizará la limpieza y generará los análisis.
+- Revisa las conclusiones y visualizaciones al final del notebook para obtener los hallazgos del análisis.
+
+💡 Nota: El archivo TelecomX_Data.json ya está incluido. Puedes modificar la ruta de carga si trabajas offline.
+
+## 📦 Instalación
+
+Si deseas ejecutar este proyecto en un entorno local, asegúrate de tener Python 3 instalado y luego ejecuta:
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+## 🧪 Requisitos previos
+
+- Python 3.7 o superior
+- Entorno Jupyter Notebook o Google Colab
+- Conexión a internet (si se desea cargar el dataset desde una URL externa)
+
+## 📌 Estado del proyecto
+
+Este proyecto se encuentra finalizado y fue entregado como parte del desafío Challenge Telecom X del programa Oracle Next Education - Alura LATAM.
 
 ## 🙏 Créditos y agradecimientos
 
 Este proyecto fue desarrollado como parte del programa Oracle Next Education (ONE) en colaboración con Alura LATAM. Agradecemos a ambos por entregar este desafío práctico y valioso, que permitió poner en práctica conocimientos de análisis de datos, visualización y razonamiento estratégico.
+
+## 📝 Licencia
+
+Este proyecto fue desarrollado exclusivamente con fines educativos en el marco de un desafío formativo. No posee licencia comercial ni de uso profesional.
